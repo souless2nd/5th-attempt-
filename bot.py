@@ -16,7 +16,7 @@ async def on_ready():
     Bot.wait_until_ready
     client.wait_until_ready
     game = discord.Game("with your feelings")
-    guild = bot.get_guild(547259564094128148)
+    guild = bot.get_guild(37559707194392603)
     await bot.change_presence(status=discord.Status.online, activity=game)
 extenstions = []
 if __name__ == '__main__':
